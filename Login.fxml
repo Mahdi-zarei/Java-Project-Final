@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Login">
+   <children>
+      <TextField fx:id="User" layoutX="152.0" layoutY="192.0" prefHeight="26.0" prefWidth="210.0" promptText="Username" />
+      <PasswordField fx:id="Pass" layoutX="152.0" layoutY="227.0" prefHeight="26.0" prefWidth="210.0" promptText="Password" />
+      <Button layoutX="282.0" layoutY="261.0" mnemonicParsing="false" onAction="#log" prefHeight="26.0" prefWidth="79.0" text="Login" />
+      <Button layoutX="282.0" layoutY="303.0" mnemonicParsing="false" onAction="#Register" prefHeight="26.0" prefWidth="79.0" text="SignUp" />
+      <Label layoutX="87.0" layoutY="192.0" prefHeight="26.0" prefWidth="65.0" text="Username:" />
+      <Label layoutX="94.0" layoutY="227.0" prefHeight="26.0" prefWidth="58.0" text="Password:" />
+      <Label layoutX="194.0" layoutY="66.0" prefHeight="53.0" prefWidth="125.0" text="Welcome!">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="303.0" prefHeight="26.0" prefWidth="126.0" text="Create a new account:" />
+      <Label fx:id="Checker" layoutX="94.0" layoutY="261.0" prefHeight="26.0" prefWidth="185.0" />
+   </children>
+</AnchorPane>

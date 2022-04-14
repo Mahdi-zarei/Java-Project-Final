@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="605.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Menu">
+   <children>
+      <Button layoutX="80.0" layoutY="66.0" mnemonicParsing="false" onAction="#Profile" prefHeight="50.0" prefWidth="290.0" text="Deck" textAlignment="CENTER" textFill="#2500ff" wrapText="true" />
+      <Button layoutX="80.0" layoutY="116.0" mnemonicParsing="false" onAction="#History" prefHeight="50.0" prefWidth="290.0" text="Battle History" textFill="RED" />
+      <Button layoutX="80.0" layoutY="166.0" mnemonicParsing="false" onAction="#Bot" prefHeight="58.0" prefWidth="232.0" text="Training Camp" textAlignment="CENTER" textFill="#a100ff" wrapText="true" />
+      <Button layoutX="312.0" layoutY="166.0" mnemonicParsing="false" onAction="#MakeEasy" prefHeight="21.0" prefWidth="56.0" text="Easy" />
+      <Button layoutX="312.0" layoutY="195.0" mnemonicParsing="false" onAction="#MakeHard" prefHeight="30.0" prefWidth="56.0" text="Hard" />
+      <Label fx:id="Tag" layoutX="123.0" layoutY="8.0" prefHeight="57.0" prefWidth="204.0" text="          Welcome" textAlignment="CENTER" textFill="#0d00ff">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button layoutX="80.0" layoutY="225.0" mnemonicParsing="false" onAction="#OnlineV1" prefHeight="50.0" prefWidth="290.0" text="Learning the Game" textFill="#ea0ff6" />      <Label fx:id="Mode" layoutX="367.0" layoutY="180.0" prefHeight="30.0" prefWidth="83.0" text="Select a mode" />
+      <Button layoutX="80.0" layoutY="275.0" mnemonicParsing="false" onAction="#OUT" prefHeight="50.0" prefWidth="290.0" text="EXIT" />
+   </children>
+</AnchorPane>

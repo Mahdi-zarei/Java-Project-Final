@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="PANE" maxHeight="960" maxWidth="540" minHeight="0" minWidth="0" prefHeight="960.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gameMap">
+   <children>
+      <ImageView fx:id="Plane" fitHeight="808.0" fitWidth="450.0" layoutY="-3.0" pickOnBounds="true">
+         <image>
+            <Image url="@roadTexture_25.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="River" fitHeight="91.0" fitWidth="450.0" layoutY="368.0" pickOnBounds="true">
+         <image>
+            <Image url="@roadTexture_61.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Bridge2" fitHeight="74.0" fitWidth="65.0" layoutX="27.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@terrainTile4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Bridge1" fitHeight="74.0" fitWidth="65.0" layoutX="358.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@terrainTile4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="King1" fitHeight="85.0" fitWidth="61.0" layoutX="195.0" layoutY="715.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@towerRound_sampleF_S.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="King2" fitHeight="85.0" fitWidth="65.0" layoutX="195.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@towerRound_sampleF_S.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="TowerLeft2" fitHeight="76.0" fitWidth="84.0" layoutX="55.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@towerRound_crystals_W.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="TowerRight2" fitHeight="76.0" fitWidth="84.0" layoutX="311.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@towerRound_crystals_W.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="TowerRight1" fitHeight="76.0" fitWidth="84.0" layoutX="311.0" layoutY="639.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@towerRound_crystals_W.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="TowerLeft1" fitHeight="76.0" fitWidth="84.0" layoutX="55.0" layoutY="639.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@towerRound_crystals_W.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="IMG1" fitHeight="76.0" fitWidth="74.0" layoutX="145.0" layoutY="805.0" onMouseClicked="#select1" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="IMG2" fitHeight="76.0" fitWidth="74.0" layoutX="219.0" layoutY="805.0" onMouseClicked="#select2" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="IMG3" fitHeight="76.0" fitWidth="74.0" layoutX="295.0" layoutY="805.0" onMouseClicked="#select3" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="IMG4" fitHeight="76.0" fitWidth="74.0" layoutX="369.0" layoutY="805.0" onMouseClicked="#select4" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="PreView" fitHeight="77.0" fitWidth="84.0" layoutX="8.0" layoutY="843.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="21.0" layoutY="826.0" prefHeight="21.0" prefWidth="65.0" text="Next card" />
+      <ProgressBar fx:id="elixirBar" layoutX="8.0" layoutY="805.0" prefWidth="200.0" progress="0.0" />
+      <Label fx:id="timmy" layoutX="118.0" layoutY="394.0" prefHeight="40.0" prefWidth="148.0" text="Click to start">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="info" layoutX="266.0" layoutY="394.0" prefHeight="40.0" prefWidth="93.0" text=" ">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
